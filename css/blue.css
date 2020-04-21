@@ -1,0 +1,19 @@
+body{
+  background:url('../images/nubes.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;//nunca se acabe la img
+}
+.logo{
+
+  background: #1f87c4;
+
+}
+#menu ul li:hover{
+  background: #1f87c4;
+}
+.vermas{
+
+  background: #1f87c4;
+
+}

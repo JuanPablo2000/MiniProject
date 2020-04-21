@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MiniProyect</title>
+    <!-- Estilos CSS:-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link  id="greentheme" rel="stylesheet" href="css/green.css">
+    <!-- Jquery desde api de google:-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Jquery Moment-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+
+<!--Mis scripts:-->
+      <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="selector-themes">
+      <div class="btn-green">
+
+      </div>
+      <div class="btn-red">
+
+      </div>
+      <div class="btn-blue">
+
+      </div>
+    </div>
+    <section id="global">
+      <!-- Cabcerea-->
+      <header>
+        <div class="logo">
+        <h1>PRACTICANDO JS</h1>
+        </div>
+        <div class="clearfix">
+
+        </div>
+        <nav id="menu">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Sobre MI</a></li>
+            <li><a href="reloj.html">Reloj</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+
+
+<!-- Contenido-->
+<section id="content">
+
+<div class="box">
+<h2>Contacto:</h2>
+<form class="frmcontact" action="" method="post">
+  <label for="nombre">Nombre:</label>
+  <input data-validation="custom" data-validation-regexp="^([a-zA-Z-\s-Á-ž]+)$" type="text" name="nombre" value="">
+  <label for="apellido">Apellido</label>
+  <input type="text" data-validation="custom" data-validation-regexp="^([a-zA-Z-\s-Á-ž]+)$" name="apellido" value="">
+  <label for="email">Email</label>
+  <input type="text"data-validation="email" name="email" value="">
+  <label for="sex" >Sexo</label>
+  <select name="sex" data-validation="required">
+    <option value="men">Hombre</option>
+    <option value="woman">Mujer</option>
+  </select>
+  <label for="datebirth">Fecha Nacimiento</label>
+  <input type="date" data-validation="date"name="datebirth" value="">
+  <label for="edad">Edad</label>
+  <input type="number" data-validation="number"name="edad" value=""><br>
+<input type="submit" name="" value="Enviar">
+</form>
+</div>
+  <aside id="sidebar">
+<div class="about">
+  <h4>Sobre mi</h4>
+  <img src="images/yo.jpg"/>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua..</p>
+</div>
+<div class="login">
+  <h4>Login</h4>
+  <form id="frm" method="post" onsubmit="return false">
+    <label for="name">Nombre:</label>
+    <p>
+    <input id="name" type="text" required pattern="[a-zA-Z-\sÁ-ž]+" name="name" value="">
+  </p>
+  <label for="mail">Correo:</label>
+    <p>
+    <input type="email" name="mail" value="">
+  </p>
+<label for="password">Contraseña:</label>
+    <p>
+    <input type="password" name="password" value="">
+  </p>
+  <input type="submit" name="" value="Enviar">
+  </form>
+</div>
+  </aside>
+  <div class="clearfix">
+
+  </div>
+</section>
+
+    </section>
+<footer>
+Gracias por verlo &copy;
+<a href="" class="subir">Subir</a>
+</footer>
+  </body>
+</html>

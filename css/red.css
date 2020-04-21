@@ -1,0 +1,19 @@
+body{
+  background:url('../images/fresas.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;//nunca se acabe la img
+}
+.logo{
+
+  background: #c43413;
+
+}
+#menu ul li:hover{
+  background: #c43413;
+}
+.vermas{
+
+  background: #c43413;
+
+}

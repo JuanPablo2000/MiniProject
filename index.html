@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MiniProyect</title>
+    <!-- Estilos CSS:-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link  id="greentheme" rel="stylesheet" href="css/green.css">
+    <!-- Jquery desde api de google:-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Slider: -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<!-- Moment.js, el min es la libreria para que pueda funcionar-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+
+<!--Mis scripts:-->
+      <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="selector-themes">
+      <div class="btn-green">
+
+      </div>
+      <div class="btn-red">
+
+      </div>
+      <div class="btn-blue">
+
+      </div>
+    </div>
+    <section id="global">
+      <!-- Cabcerea-->
+      <header>
+        <div class="logo">
+        <h1>PRACTICANDO JS</h1>
+        </div>
+        <div class="clearfix">
+
+        </div>
+        <nav id="menu">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Sobre MI</a></li>
+            <li><a href="reloj.html">Reloj</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Slider-->
+      <div id="slider">
+        <div class="bxslider">
+          <div><img src="images/hojas.jpg" height="456" width="100%"></div>
+          <div><img src="images/nubes.jpg" height="456" width="100%"></div>
+          <div><img src="images/fresas.jpg" height="456" width="100%"></div>
+        </div>
+      </div>
+
+<!-- Contenido-->
+<section id="content">
+  <div id="posts">
+<!-- Se cargan los posts-->
+
+  </div>
+  <aside id="sidebar">
+<div class="about">
+  <h4>Sobre mi</h4>
+  <img src="images/yo.jpg"/>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua..</p>
+</div>
+<div class="login">
+  <h4>Login</h4>
+  <form id="frm">
+    <label for="name">Nombre:</label>
+    <p>
+    <input id="name" type="text" name="name" value="">
+  </p>
+  <label for="mail">Correo:</label>
+    <p>
+    <input type="email" name="mail" value="">
+  </p>
+<label for="password">Contraseña:</label>
+    <p>
+    <input type="password" name="password" value="">
+  </p>
+  <input type="submit" name="" value="Enviar">
+  </form>
+</div>
+  </aside>
+  <div class="clearfix">
+
+  </div>
+</section>
+
+    </section>
+<footer>
+Gracias por verlo &copy;
+<a href="" class="subir">Subir</a>
+</footer>
+  </body>
+</html>
